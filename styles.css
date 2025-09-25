@@ -1,0 +1,50 @@
+/* General Page Styling (optional improvements) */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Dark theme toggle */
+.dark-theme {
+  background-color: #222;
+  color: white;
+}
+
+/* Input fields */
+input[type="number"],
+input[type="text"] {
+  padding: 8px;
+  margin: 5px 0;
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Stylish Buttons */
+button {
+  padding: 10px 16px;
+  margin: 6px 0;
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result paragraphs and lists */
+p, ul {
+  margin-top: 10px;
+  font-weight: bold;
+}
+

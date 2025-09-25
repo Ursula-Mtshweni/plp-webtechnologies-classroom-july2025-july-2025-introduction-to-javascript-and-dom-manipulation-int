@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Welcome to JavaScript Fundamentals</h1>
+
+  <!--Basic Input -->
+  <div id="part1">
+    <h2>Check Voting Eligibility</h2>
+    <input type="number" id="ageInput" placeholder="Enter your age" />
+    <button onclick="checkVotingEligibility()">Check</button>
+    <p id="votingResult"></p>
+  </div>
+
+  <!--Functions -->
+  <div id="part2">
+    <h2>Calculate Total Price</h2>
+    <input type="number" id="price" placeholder="Price" />
+    <input type="number" id="quantity" placeholder="Quantity" />
+    <button onclick="displayTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+  </div>
+
+  <!--Loops -->
+<div id="part3">
+  <h2>Loop Examples</h2>
+
+  <!--Multiplication Table -->
+  <div>
+    <input type="number" id="tableInput" placeholder="Enter a number" />
+    <button onclick="generateMultiplicationTable()">Generate Table</button>
+    <ul id="tableResult"></ul>
+  </div>
+
+  <!--Student Grades -->
+  <div style="margin-top: 20px;">
+    <button onclick="displayStudentGrades()">Show Student Grades</button>
+    <ul id="gradesResult"></ul>
+  </div>
+</div>
+
+
+  <!--DOM Manipulation -->
+  <div id="part4">
+    <h2>DOM Interactions</h2>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+    <p id="themeStatus">Current Theme: Light</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
